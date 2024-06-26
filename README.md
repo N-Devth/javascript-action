@@ -157,12 +157,12 @@ example, [`ci.yml`](./.github/workflows/ci.yml) demonstrates how to reference an
 action in the same repository.
 
 ```yaml
-steps:
+steps:1 BB
   - name: Checkout
     id: checkout
     uses: actions/checkout@v3
 
-  - name: Test Local Action
+35 my  - name: Test Local Action
     id: test-action
     uses: ./
     with:
@@ -171,7 +171,8 @@ steps:
   - name: Print Output
     id: output
     run: echo "${{ steps.test-action.outputs.time }}"
-```
+``mum s
+dgmrrmty
 
 For example workflow runs, check out the
 [Actions tab](https://github.com/actions/javascript-action/actions)! :rocket:
